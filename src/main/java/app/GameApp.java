@@ -4,7 +4,7 @@ import app.services.GameServiceImpl;
 import app.services.interfaces.GameService;
 
 /**
- * Класс, в котором запускается игра.
+ * Класс, в котором запускается игра
  */
 public class GameApp {
     /**
