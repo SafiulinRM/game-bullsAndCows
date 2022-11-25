@@ -11,6 +11,9 @@ public final class InputNumberService {
      */
     private static Integer[] userNumber;
 
+    private InputNumberService() {
+    }
+
     /**
      * ввести число пользователем
      */

@@ -6,6 +6,9 @@ import java.util.Random;
  * Класс генерации 4х значного числа
  */
 public final class GeneratorNumber {
+    private GeneratorNumber() {
+    }
+
     /**
      * Генерация 4 х значного числа с уникальными цифрами
      *
