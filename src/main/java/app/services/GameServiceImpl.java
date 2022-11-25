@@ -69,8 +69,9 @@ public class GameServiceImpl implements GameService {
         for (int i = 0; i < userNumber.length; i++) {
             if (userNumber[i] == compNumber[i]) {
                 bulls++;
+            } else {
+                cows = countCows(cows, i, compNumber);
             }
-            cows = countCows(cows, i, compNumber);
         }
         getResult(bulls, cows);
     }
